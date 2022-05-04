@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/white"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white">
+
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/home_icon"
+            tools:ignore="ContentDescription,MissingConstraints,PxUsage,RtlHardcoded" />
+
+        <ImageButton
+            android:id="@+id/sun"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="220dp"
+            android:background="@drawable/sun_icon"
+            tools:ignore="ContentDescription,MissingConstraints,PxUsage,RtlHardcoded" />
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="71dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/securn"
+        tools:ignore="ContentDescription,MissingConstraints,PxUsage" />
+
+</LinearLayout>
